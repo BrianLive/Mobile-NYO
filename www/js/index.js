@@ -40,7 +40,7 @@ var app = {
         app.page.current = to;
         app.output.html('');
 
-        if(to.indexOf("events/") !== -1) {
+        /*if(to.indexOf("events/") !== -1) {
             $.getJSON('pages/event.js', function(placeholder) {
                 $.each(data.content, function(key, val) {
                     var buffer = '<div id=\'' + key + '\'';
@@ -66,7 +66,7 @@ var app = {
                 });
                 app.output.val(txt);
             });
-        } else {
+        } else {*/
             $.getJSON('pages/' + to + '.js', function(data) {
                 $.each(data.content, function(key, val) {
                     var buffer = '<div id=\'' + key + '\'';
@@ -80,7 +80,7 @@ var app = {
                     app.generateClasses($('#' + key), val.class);
                 });
             });
-        }
+        //}
 
         $('#loading').hide();
     },
