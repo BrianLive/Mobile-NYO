@@ -177,8 +177,8 @@
 			"source": "img/sponsors/Honorable/SamsClub.png"
 		},{
 			"type": "sponsor",
-			"href": "http://www.sealaska.com",
-			"source": "img/sponsors/Honorable/SeAlaska.png"
+			"href": "http://www.seaalaska.com",
+			"source": "img/sponsors/Honorable/SeaAlaska.png"
 		},{
 			"type": "sponsor",
 			"href": "http://alaskaquitline.com/",
