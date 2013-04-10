@@ -40,47 +40,19 @@ var app = {
         app.page.current = to;
         app.output.html('');
 
-        /*if(to.indexOf("events/") !== -1) {
-            $.getJSON('pages/event.js', function(placeholder) {
-                $.each(data.content, function(key, val) {
-                    var buffer = '<div id=\'' + key + '\'';
-                    if(key === 1) buffer += ' style="background-image: url(\'img/' + to + '.jpg\');"';
-                    buffer += '>';
-                    app.output.append(buffer);
-                    if(val.elements) $.each(val.elements, function(index, element) {
-                        app.generateElement(element.type, element, '#' + key);
-                    });
-                    app.output.append('</div>');
-                    app.generateClasses($('#' + key), val.class);
+        $.getJSON('pages/' + to + '.js', function(data) {
+            $.each(data.content, function(key, val) {
+                var buffer = '<div id=\'' + key + '\'';
+                if(key === 1) buffer += ' style="background-image: url(\'img/' + to + '.jpg\');"';
+                buffer += '>';
+                app.output.append(buffer);
+                if(val.elements) $.each(val.elements, function(index, element) {
+                    app.generateElement(element.type, element, '#' + key);
                 });
-
-                var txt = app.output.val();
-                $.getJSON('pages/' + to + '.js', function(eventInfo) {
-                    $.each(eventInfo, function(key, val) {
-                        switch(key) {
-                            case 'name': txt.replace('{event-name}', val); break;
-                            case 'description': txt.replace('{event-description}', val); break;
-                            case 'sponsor': txt.replace('{event-sponsor}', val); break;
-                        }
-                    });
-                });
-                app.output.val(txt);
+                app.output.append('</div>');
+                app.generateClasses($('#' + key), val.class);
             });
-        } else {*/
-            $.getJSON('pages/' + to + '.js', function(data) {
-                $.each(data.content, function(key, val) {
-                    var buffer = '<div id=\'' + key + '\'';
-                    if(key === 1) buffer += ' style="background-image: url(\'img/' + to + '.jpg\');"';
-                    buffer += '>';
-                    app.output.append(buffer);
-                    if(val.elements) $.each(val.elements, function(index, element) {
-                        app.generateElement(element.type, element, '#' + key);
-                    });
-                    app.output.append('</div>');
-                    app.generateClasses($('#' + key), val.class);
-                });
-            });
-        //}
+        });
 
         $('#loading').hide();
     },
