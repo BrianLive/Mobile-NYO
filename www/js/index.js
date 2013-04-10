@@ -85,7 +85,9 @@ var app = {
         $('#loading').hide();
     },
     generateLink: function(object, to) {
-        object.on('click', function(e) app.changePage(to));
+        object.on('click', function(e) {
+            app.changePage(to)
+        });
     },
     generateClasses: function(object, value) {
         if($.isArray(value)) {
