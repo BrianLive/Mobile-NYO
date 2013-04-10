@@ -22,7 +22,8 @@ var app = {
         this.bind();
     },
     bind: function() {
-        document.addEventListener('DOMContentLoaded deviceready', this.deviceready, false);
+        document.addEventListener('DOMContentLoaded', this.deviceready, false);
+        document.addEventListener('deviceready', this.deviceready, false);
         document.addEventListener('backbutton', this.backbutton, false);
     },
     deviceready: function() {
@@ -202,7 +203,7 @@ var app = {
                             b += '<div class="divider"></div>';
                             
                             $(output).append(b);
-                            $('.listitem > span:empty()').parent().remove();;
+                            $('.listitem > span:empty()').parent().remove();
                         });
                     });
                     }
