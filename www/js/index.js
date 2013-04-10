@@ -84,9 +84,7 @@ var app = {
         $('#loading').hide();
     },
     generateLink: function(object, to) {
-        object.on('tap', function() {
-            app.changePage(to);
-        });
+        object.on('click', function(e) app.changePage(to);
     },
     generateClasses: function(object, value) {
         if($.isArray(value)) {
@@ -178,7 +176,7 @@ var app = {
                             var b = '';
                             
                             b += '<div';
-                            if(val.link) b += ' ontouchend="window.plugins.childBrowser.showWebPage(\'' + val.link + '\', {showLocationBar: false});"';
+                            if(val.link) b += ' onclick="window.plugins.childBrowser.showWebPage(\'' + val.link + '\', {showLocationBar: false});"';
                             b += ' class="ui listitem">';
                             
                             var date = (new Date(val.created_time)).toLocaleDateString();
@@ -210,7 +208,7 @@ var app = {
             case 'sponsor':
                 divider = true;
                 buffer += '<div ';
-                if(data.href) buffer += ' ontouchend="window.plugins.childBrowser.showWebPage(\'' + data.href + '\', {showLocationBar: false})";';
+                if(data.href) buffer += ' onclick="window.plugins.childBrowser.showWebPage(\'' + data.href + '\', {showLocationBar: false})";';
                 buffer += ' style="margin: 5px; text-align: center;">';
                 if(data.href) buffer += '<div style="font-size: 0.9em; position: absolute; right: 16px;"><img style="position: relative; top: 0px;" src="img/icon/forward.png" alt="" /></div>';
                 if(data.source) buffer += '<img style="max-height: 128px; max-width: 60%;" src="' + data.source + '" alt="" /><br />';
@@ -222,8 +220,8 @@ var app = {
                     divider = true;
 
                     link = '';
-                    if(data.download) link = ' ontouchend="app.download(\'' + data.href + '\')"';
-                    else if(data.href) link = ' ontouchend="window.plugins.childBrowser.showWebPage(\'' + data.href + '\', {showLocationBar: false})"';
+                    if(data.download) link = ' onclick="app.download(\'' + data.href + '\')"';
+                    else if(data.href) link = ' onclick="window.plugins.childBrowser.showWebPage(\'' + data.href + '\', {showLocationBar: false})"';
                     
                     buffer += '<div class="listitem"' + link + '>';
                     if(data.page || data.href) buffer += '<div style="font-size: 0.9em; position: absolute; right: 16px;"> <img style="position: relative; top: 0px;" src="img/icon/forward.png" alt="" /></div>';
