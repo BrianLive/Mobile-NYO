@@ -104,7 +104,7 @@
 		},{
 			"type": "sponsor",
 			"href": "http://koahnicbroadcast.org",
-			"source": "img/sponsors/Bronze/Koahnic.png"
+			"source": "img/sponsors/Bronze/KNBA.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.ktuu.com/",
@@ -146,11 +146,11 @@
 		},{
 			"type": "sponsor",
 			"href": "http://www.eyakcorporation.com",
-			"source": "img/sponsor/Honorable/Eyak.png"
+			"source": "img/sponsors/Honorable/Eyak.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.holidaystationstores.com",
-			"source": "img/sponsor/Honorable/Holiday.png"
+			"source": "img/sponsors/Honorable/Holiday.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.interbake.com",
@@ -202,7 +202,7 @@
 		},{
 			"type": "sponsor",
 			"href": "http://www.asdk12.org",
-			"source": "img/sponsors/Honorable/asdk12.png"
+			"source": "img/sponsors/Honorable/WestHighPTA.png"
 		},{
 			"type": "text",
 			"class": ["center", "notice"],

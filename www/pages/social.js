@@ -27,7 +27,7 @@
 			"type": "divider"
 		},{
 			"type": "feed",
-			"source": "http://www.api.twitter.com/citcnyo/status/user_timeline/user_timeline.json"
+			"source": "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=citcnyo"
 		}]
 	}]
 }
