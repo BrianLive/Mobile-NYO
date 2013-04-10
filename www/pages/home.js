@@ -23,6 +23,10 @@
 			"content": "Sponsors"
 		},{
 			"type": "button",
+			"page": "vendors",
+			"content": "Vendors"
+		},{
+			"type": "button",
 			"page": "activities",
 			"content": "Activities"
 		},{
