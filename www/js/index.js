@@ -64,7 +64,7 @@ var app = {
                         }
                     });
                 });
-                
+                app.output.val(txt);
             });
         } else {
             $.getJSON('pages/' + to + '.js', function(data) {
