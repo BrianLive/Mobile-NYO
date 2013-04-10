@@ -1,0 +1,268 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+
+body {
+    background: #3D6E9F;
+    background-image: url(../img/background.png), -webkit-gradient(linear, left top, left bottom, from(#3D6E9F), to(#0E3B61));
+    background-image: url(../img/background.png), -webkit-linear-gradient(top, #3D6E9F, #0E3B61);
+    background-image: url(../img/background.png), -moz-linear-gradient(top, #3D6E9F, #0E3B61);
+    background-image: url(../img/background.png), -ms-linear-gradient(top, #3D6E9F, #0E3B61);
+    background-image: url(../img/background.png), -o-linear-gradient(top, #3D6E9F, #0E3B61);
+    background-image: url(../img/background.png), linear-gradient(top, #3D6E9F, #0E3B61);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #747474;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #858585;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 0.8em;
+    margin-bottom: 3px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 12px;
+}
+
+li {
+    margin: 2px;
+}
+
+a {
+    color: #CD202C;
+}
+
+.app {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 48px;
+}
+
+#1 {
+    height: 100%;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.small {
+    font-size: 0.9em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.back {
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 12px;
+    padding: 8px;
+    background-color: #4C3327;
+    border-radius: 0px 16px 16px 0px;
+    z-index: 2;
+}
+
+.button {
+    color: white;
+    background-color: #4C3327;
+    border: 2px solid white;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0px 0px 3px 3px #363C44;
+    -moz-box-shadow: 0px 0px 3px 3px #363C44;
+    -webkit-box-shadow: 0px 0px 3px 3px #363C44;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    min-width: 32px;
+    min-height: 15px;
+}
+
+.divider {
+    padding-top: 6px;
+    margin-bottom: 6px;
+    border-bottom: 1px #BBB solid;
+    clear: both;
+}
+
+.status {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    top: 0px;
+    z-index: 2;
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.logo-text {
+    display: inline;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+.footer {
+    position: relative;
+    color: #BBB;
+    font-size: 1em;
+    z-index: -1;
+    margin: 12px;
+}
+
+.footer a {
+    color: #BBB;
+}
+
+.margin-horizontal {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.margin-vertical {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.body {
+    position: relative;
+    z-index: 1;
+    margin: 12px;
+    padding: 12px;
+    background-color: #F0F0F0;
+    color: #8A8A8A;
+    border: 2px #B9B9B9 solid;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.body-event {
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+
+.body-event div {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    margin: 12px;
+}
+
+.notice {
+    color: #DA3838;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.pin {
+    position: absolute;
+}
+
+.listitem {
+    margin: 12px 0px 6px 0px;
+    color: #8A8A8A;
+}
+
+.listitem a {
+    color: #CD202C;
+}
