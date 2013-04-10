@@ -22,18 +22,22 @@
 		},{
 			"type": "listitem",
 			"header": "NYO Games Guide / Access 360",
+			"download": "true",
 			"href": "http://www.citci.org/app/A360 Spring 2012.pdf"
 		},{
 			"type": "listitem",
 			"header": "NYO Handbook",
+			"download": "true",
 			"href": "http://www.citci.org/wp-content/uploads/2013/04/2013-NYO-Handbook.pdf"
 		},{
 			"type": "listem",
 			"header": "NYO Schedule",
+			"download": "true",
 			"href": "http://www.citci.com/app/2012 NYO Schedule.pdf"
 		},{
 			"type": "listitem",
 			"header": "About the Games",
+			"download": "true",
 			"href": "http://citci.org/wp-content/uploads/2013/04/About-The-Games.pdf"
 		},{
 			"type": "listitem",

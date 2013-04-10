@@ -34,6 +34,7 @@
 			"type": "listitem",
 			"header": "NYO Student Art Contest",
 			"online": "yes",
+			"download": "true",
 			"content": "Have your art featured on the official 2014 NYO Gear!",
 			"href": "http://citci.org/wp-content/uploads/2013/04/2014-NYO-Art-Contest.pdf",
 			"online": "yes"
