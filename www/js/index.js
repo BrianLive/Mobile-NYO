@@ -221,9 +221,7 @@ var app = {
         current: 'home',
         previous: 'home'
     },
-
-    download: function(url)
-    {
+    download: function(url) {
         window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function onFileSystemSuccess(fileSystem) {
             fileSystem.root.getFile("dummy.html", {create: true, exclusive: false}, function gotFileEntry(fileEntry) {
                 var sPath = fileEntry.fullPath.replace("dummy.html","");
@@ -240,5 +238,5 @@ var app = {
                 });
             }, fail);
         }, fail);
-    };
+    }
 };
