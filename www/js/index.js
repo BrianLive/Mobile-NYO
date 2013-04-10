@@ -251,6 +251,6 @@ var app = {
         previous: 'home'
     },
     download: function(url) {
-        window.location = url;
+        window.plugins.childBrowser.openExternal(url);
     }
 };
