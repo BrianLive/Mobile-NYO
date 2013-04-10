@@ -21,7 +21,7 @@ var app = {
         this.bind();
     },
     bind: function() {
-        document.addEventListener('deviceready', this.deviceready, false);
+        document.addEventListener('DOMContentLoaded' /*deviceready*/, this.deviceready, false);
         document.addEventListener('backbutton', this.backbutton, false);
     },
     deviceready: function() {
@@ -54,7 +54,7 @@ var app = {
                     app.generateClasses($('#' + key), val.class);
                 });
 
-                var txt = app.output.val();
+                var txt = app.output.html();
                 $.getJSON('pages/' + to + '.js', function(eventInfo) {
                     $.each(eventInfo, function(key, val) {
                         switch(key) {
@@ -64,13 +64,12 @@ var app = {
                         }
                     });
                 });
-                app.output.val(txt);
+                app.output.html(txt);
             });
         } else {
             $.getJSON('pages/' + to + '.js', function(data) {
                 $.each(data.content, function(key, val) {
                     var buffer = '<div id=\'' + key + '\'';
-                    if(key === 1) buffer += ' style="background-image: url(\'img/' + to + '.jpg\');"';
                     buffer += '>';
                     app.output.append(buffer);
                     if(val.elements) $.each(val.elements, function(index, element) {
