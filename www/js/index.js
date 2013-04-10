@@ -55,16 +55,13 @@ var app = {
                 });
 
                 var txt = app.output.html();
-                console.log(txt);
                 $.getJSON('pages/' + to + '.js', function(eventInfo) {
                     $.each(eventInfo, function(key, val) {
                         switch(key) {
-                            case 'name': txt.replace('{event-name}', val); break;
-                            case 'description': txt.replace('{event-description}', val); break;
-                            case 'sponsor': txt.replace('{event-sponsor}', val); break;
+                            case 'name': txt = txt.replace('{event-name}', val); break;
+                            case 'description': txt = txt.replace('{event-description}', val); break;
+                            case 'sponsor': txt = txt.replace('{event-sponsor}', val); break;
                         }
-
-                        console.log(key + ': ' + val);
                     });
                 });
                 app.output.html(txt);
@@ -87,7 +84,7 @@ var app = {
         $('#loading').hide();
     },
     generateLink: function(object, to) {
-        object.on('touchend', function() {
+        object.on('tap', function() {
             app.changePage(to);
         });
     },

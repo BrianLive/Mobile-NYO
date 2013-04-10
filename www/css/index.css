@@ -225,7 +225,6 @@ a {
     position: absolute;
     top: 12px;
     left: 12px;
-    right: 12px;
     z-index: 1;
     padding: 12px;
     background-color: #F0F0F0;
@@ -233,10 +232,11 @@ a {
     border: 2px #B9B9B9 solid;
     border-radius: 16px;
     height: 100%;
+    width: 100%;
 }
 
 .body:after {
-    content: "<div style='height: 32px'></div>";
+    padding-bottom: 32px;
 }
 
 .body-event {
