@@ -9,7 +9,7 @@
     <name>Mobile NYO</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Use the Mobile NYO application to get up to date information on the NYO Games.
     </description>
 
     <author href="http://citci.org" email="bbenson@citci.or">
@@ -21,6 +21,7 @@
         The 'device' permission is required for the 'deviceready' event.
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://plugins.phonegap.com/ChildBrowser/2.0.0" />
 
     <!--
         If you do not want any permissions to be added to your app, add the
