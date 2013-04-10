@@ -55,6 +55,7 @@ var app = {
                 });
 
                 var txt = app.output.html();
+                console.log(txt);
                 $.getJSON('pages/' + to + '.js', function(eventInfo) {
                     $.each(eventInfo, function(key, val) {
                         switch(key) {
@@ -62,6 +63,8 @@ var app = {
                             case 'description': txt.replace('{event-description}', val); break;
                             case 'sponsor': txt.replace('{event-sponsor}', val); break;
                         }
+
+                        console.log(key + ': ' + val);
                     });
                 });
                 app.output.html(txt);
