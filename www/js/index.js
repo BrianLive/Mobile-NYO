@@ -16,12 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 var app = {
     initialize: function() {
         this.bind();
     },
     bind: function() {
-        document.addEventListener('DOMContentLoaded' /*deviceready*/, this.deviceready, false);
+        document.addEventListener('DOMContentLoaded deviceready', this.deviceready, false);
         document.addEventListener('backbutton', this.backbutton, false);
     },
     deviceready: function() {
@@ -84,7 +85,7 @@ var app = {
         $('#loading').hide();
     },
     generateLink: function(object, to) {
-        object.on('click', function(e) app.changePage(to);
+        object.on('click', function(e) app.changePage(to));
     },
     generateClasses: function(object, value) {
         if($.isArray(value)) {
