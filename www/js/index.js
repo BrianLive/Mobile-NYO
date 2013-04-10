@@ -209,7 +209,9 @@ var app = {
 
             case 'sponsor':
                 divider = true;
-                buffer += '<div style="margin: 5px; text-align: center;">';
+                buffer += '<div ';
+                if(data.href) buffer += ' ontouchend="window.plugins.childBrowser.showWebPage(\'' + data.href + '\', {showLocationBar: false})";';
+                buffer += ' style="margin: 5px; text-align: center;">';
                 if(data.href) buffer += '<div style="font-size: 0.9em; position: absolute; right: 16px;"><img style="position: relative; top: 0px;" src="img/icon/forward.png" alt="" /></div>';
                 if(data.source) buffer += '<img style="max-height: 128px; max-width: 60%;" src="' + data.source + '" alt="" /><br />';
                 if(data.content) buffer += '<h2>' + data.content + '</h2>';
@@ -249,6 +251,6 @@ var app = {
         previous: 'home'
     },
     download: function(url) {
-        window.open(url);
+        window.location = url;
     }
 };
