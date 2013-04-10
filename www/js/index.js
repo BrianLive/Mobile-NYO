@@ -41,7 +41,7 @@ var app = {
         app.output.html('');
 
         if(to.indexOf("events/") !== -1) {
-            $.getJSON('pages/event.js', function(placeholder) {
+            $.getJSON('pages/event.js', function(data) {
                 $.each(data.content, function(key, val) {
                     var buffer = '<div id=\'' + key + '\'';
                     if(key === 1) buffer += ' style="background-image: url(\'img/' + to + '.jpg\');"';
@@ -211,7 +211,7 @@ var app = {
             case 'sponsor':
                 divider = true;
                 buffer += '<div style="margin: 5px; text-align: center;">';
-                if(data.href) buffer += '<div style="font-size: 0.9em; position: absolute; right: 16px;">Visit Website <img style="position: relative; top: 0px;" src="img/icon/forward.png" alt="" /></div>';
+                if(data.href) buffer += '<div style="font-size: 0.9em; position: absolute; right: 16px;"><img style="position: relative; top: 0px;" src="img/icon/forward.png" alt="" /></div>';
                 if(data.source) buffer += '<img style="max-height: 128px; max-width: 60%;" src="' + data.source + '" alt="" /><br />';
                 if(data.content) buffer += '<h2>' + data.content + '</h2>';
                 buffer += '</div>'
@@ -250,21 +250,6 @@ var app = {
         previous: 'home'
     },
     download: function(url) {
-        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function onFileSystemSuccess(fileSystem) {
-            fileSystem.root.getFile("dummy.html", {create: true, exclusive: false}, function gotFileEntry(fileEntry) {
-                var sPath = fileEntry.fullPath.replace("dummy.html","");
-                var fileTransfer = new FileTransfer();
-                fileEntry.remove();
-
-                fileTransfer.download(url, sPath + url.substr(url.lastIndexOf("/")), function(theFile) {
-                    console.log("download complete: " + theFile.toURI());
-                    showLink(theFile.toURI());
-                }, function(error) {
-                    console.log("download error source " + error.source);
-                    console.log("download error target " + error.target);
-                    console.log("upload error code: " + error.code);
-                });
-            }, fail);
-        }, fail);
+        window.open(url);
     }
 };
