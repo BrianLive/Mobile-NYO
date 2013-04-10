@@ -6,7 +6,7 @@
 			"type": "link",
 			"icon": "back",
 			"content": "Previous Page",
-			"page": "events"
+			"page": "home"
 		}]
 	},{
 		"class": ["ui", "body", "body-event"],

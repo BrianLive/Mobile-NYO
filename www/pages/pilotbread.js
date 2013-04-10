@@ -40,9 +40,6 @@
 			"content": "Yum! Check out 2012 winning entries and photos from last year's <a href='http://citci.org/event-programs/nyo-games/2013-nyo-activities/3rd-annual-pilot-bread-recipe-contest/2012-pilot-bread-contest-winning-recipes/'>Pilot Bread Contest</a>",
 			"href": "http://citci.org/event-programs/nyo-games/3rd-annual-pilot-bread-recipe-contest/",
 			"online": "yes"
-		},{
-			"type": "html",
-			"content": "<div style='margin-bottom: 16px;'></div>";
 		}]
 	}]
 }

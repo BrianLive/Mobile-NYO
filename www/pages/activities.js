@@ -16,7 +16,7 @@
 			"source": "img/header/nyo.png"
 		},{
 			"type": "html",
-			"content": "<h1>Activities</h1><span class='small'>Be a part of the excitement! Every time you participate in one of the NYO activities below, your name gets entered to win cool prizes, including 50,000 Alaska Airlines Miles!</span>"
+			"content": "<h1>Activities</h1><span class='small'>Be a part of the excitement! Every time you participate in one of the NYO activities below, your name gets entered in a drawing to win cool prizes, including 25,000 Alaska Airlines Miles! Participate by visiting the links below, or stop by the NYO Winner’s Circle during the Games!</span>"
 		},{
 			"type": "divider"
 		},{
@@ -28,7 +28,7 @@
 			"type": "listitem",
 			"header": "NYO Trivia Quiz",
 			"content": "Test your NYO knowledge!",
-			"href": "http://www.citci.org/nyoTrivia",
+			"href": "http://citci.org/2013-nyo-games-alaska-trivia/",
 			"online": "yes"
 		},{
 			"type": "listitem",

@@ -30,8 +30,12 @@ var app = {
         app.changePage('home');
     },
     backbutton: function() {
-        if(app.page.current === 'home') navigator.app.exitApp();
-        else app.changePage(app.page.previous);
+        if(app.page.current == 'home') {
+            navigator.app.exitApp();
+        }
+        else {
+            app.changePage(app.page.previous);
+        }
     },
     report: function(id) {
         console.log("Report: " + id);
@@ -44,6 +48,8 @@ var app = {
 
         if(to.indexOf("events/") !== -1) {
             $.getJSON('pages/event.js', function(data) {
+                var count = data.content.length;
+
                 $.each(data.content, function(key, val) {
                     var buffer = '<div id=\'' + key + '\'';
                     if(key === 1) buffer += ' style="background-image: url(\'img/' + to + '.jpg\');"';
@@ -57,19 +63,27 @@ var app = {
                 });
 
                 var txt = app.output.html();
-                $.getJSON('pages/' + to + '.js', function(eventInfo) {
+                $.when($.getJSON('pages/' + to + '.js', function(eventInfo) {
                     $.each(eventInfo, function(key, val) {
                         switch(key) {
                             case 'name': txt = txt.replace('{event-name}', val); break;
                             case 'description': txt = txt.replace('{event-description}', val); break;
                             case 'sponsor': txt = txt.replace('{event-sponsor}', val); break;
                         }
+
+                        app.output.html(txt);
+                        txt = app.output.html();
                     });
+                }).done(function() {
+                    app.output.append('<div style="padding-bottom: 24px;"></div>');
+                })).then(function() {
+                    $('.back').on('click', function() { app.backbutton(); });
                 });
-                app.output.html(txt);
             });
         } else {
             $.getJSON('pages/' + to + '.js', function(data) {
+                var count = data.content.length;
+
                 $.each(data.content, function(key, val) {
                     var buffer = '<div id=\'' + key + '\'';
                     buffer += '>';
@@ -80,6 +94,8 @@ var app = {
                     app.output.append('</div>');
                     app.generateClasses($('#' + key), val.class);
                 });
+            }).done(function() {
+                app.output.append('<div style="padding-bottom: 24px;"></div>');
             });
         }
 
