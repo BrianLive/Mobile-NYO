@@ -103,12 +103,8 @@
 			"source": "img/sponsors/Bronze/GCI.gif"
 		},{
 			"type": "sponsor",
-			"href": "http://www.holidaystationstores.com/",
-			"source": "img/sponsors/Bronze/Holiday.png"
-		},{
-			"type": "sponsor",
-			"href": "http://www.knba.com/",
-			"source": "img/sponsors/Bronze/KNBA.png"
+			"href": "http://koahnicbroadcast.org",
+			"source": "img/sponsors/Bronze/Koahnic.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.ktuu.com/",
@@ -123,6 +119,10 @@
 			"content": "Honorable Mention"
 		},{
 			"type": "divider"
+		},{
+			"type": "sponsor",
+			"href": "http://www.mlandp.com",
+			"source": "img/sponsors/Honorable/mlandp.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.bbnc.net",
@@ -149,6 +149,10 @@
 			"source": "img/sponsor/Honorable/Eyak.png"
 		},{
 			"type": "sponsor",
+			"href": "http://www.holidaystationstores.com",
+			"source": "img/sponsor/Honorable/Holiday.png"
+		},{
+			"type": "sponsor",
 			"href": "http://www.interbake.com",
 			"source": "img/sponsors/Honorable/Interbake_Foods.png"
 		},{
@@ -161,10 +165,6 @@
 			"source": "img/sponsors/Honorable/Mikunda.png"
 		},{
 			"type": "sponsor",
-			"href": "http://www.mlandp.com",
-			"source": "img/sponsors/Honorable/mlandp.png"
-		},{
-			"type": "sponsor",
 			"href": "http://www.northwindgrp.com",
 			"source": "img/sponsors/Honorable/Northwind.png"
 		},{
@@ -173,8 +173,20 @@
 			"source": "img/sponsors/Honorable/RedCarpet.png"
 		},{
 			"type": "sponsor",
+			"href": "http://samsclub.com/",
+			"source": "img/sponsors/Honorable/SamsClub.png"
+		},{
+			"type": "sponsor",
 			"href": "http://www.sealaska.com",
 			"source": "img/sponsors/Honorable/SeAlaska.png"
+		},{
+			"type": "sponsor",
+			"href": "http://alaskaquitline.com/",
+			"source": "img/sponsors/Honorable/QuitLine.png"
+		},{
+			"type": "sponsor",
+			"href": "http://www.thesca.org",
+			"source": "img/sponsors/Honorable/Thesca.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.aleutcorp.com/",
@@ -257,6 +269,9 @@
 			"content": "Kingikmiut Dancers"
 		},{
 			"type": "divider"
+		},{
+			"type": "html",
+			"content": "Ninilchik Traditional Council"
 		},{
 			"type": "html",
 			"content": "Rage City Rollergirls"
