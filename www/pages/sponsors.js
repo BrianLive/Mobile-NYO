@@ -33,7 +33,7 @@
 		},{
 			"type": "text",
 			"class": ["center", "notice"],
-			"content": "Gold Medal Partners"
+			"content": "Gold Medal Partners ($25,000 - $49,999)"
 		},{
 			"type": "divider"
 		},{
@@ -44,13 +44,17 @@
 		},{
 			"type": "text",
 			"class": ["center", "notice"],
-			"content": "Silver Medal Partners"
+			"content": "Silver Medal Partners ($10,000 - $24,999)"
 		},{
 			"type": "divider"
 		},{
 			"type": "sponsor",
 			"href": "http://www.asrcenergy.com",
 			"source": "img/sponsors/Silver/ASRC.png"
+		},{
+			"type": "sponsor",
+			"href": "http://www.thecirifoundation.org/",
+			"source": "img/sponsors/Silver/CIRI_Found.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.chugach-ak.com",
@@ -76,13 +80,9 @@
 			"href": "http://www.rasmuson.org",
 			"source": "img/sponsors/Silver/Rasmuson.png"
 		},{
-			"type": "sponsor",
-			"href": "http://www.thecirifoundation.org/",
-			"source": "img/sponsors/Silver/CIRI_Found.png"
-		},{
 			"type": "text",
 			"class": ["center", "notice"],
-			"content": "Bronze Medal Partners"
+			"content": "Bronze Medal Partners ($5,000 - $9,999)"
 		},{
 			"type": "divider"
 		},{
@@ -116,9 +116,16 @@
 		},{
 			"type": "text",
 			"class": ["center", "notice"],
-			"content": "Honorable Mention"
+			"content": "Honorable Mention ($1,500 - $4,999)"
 		},{
 			"type": "divider"
+		},{
+			"type": "sponsor",
+			"source": "img/sponsors/Honorable/NationalGuard.png"
+		},{
+			"type": "sponsor",
+			"href": "http://www.aleutcorp.com/",
+			"source": "img/sponsors/Honorable/Aleut_40thLogo.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.mlandp.com",
@@ -135,6 +142,10 @@
 			"type": "sponsor",
 			"href": "http://www.ubcalaska.org/1281_Anchorage.html",
 			"source": "img/sponsors/Honorable/Carpenters.png"
+		},{
+			"type": "sponsor",
+			"href": "http://www.cruzconstruction.com",
+			"source": "img/sponsors/Honorable/Cruz.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.donlingold.com",
@@ -189,10 +200,6 @@
 			"source": "img/sponsors/Honorable/Thesca.png"
 		},{
 			"type": "sponsor",
-			"href": "http://www.aleutcorp.com/",
-			"source": "img/sponsors/Honorable/Aleut_40thLogo.png"
-		},{
-			"type": "sponsor",
 			"href": "http://www.ukpik.com",
 			"source": "img/sponsors/Honorable/Ukpeagvik.png"
 		},{
@@ -207,11 +214,6 @@
 			"type": "text",
 			"class": ["center", "notice"],
 			"content": "Friends of NYO"
-		},{
-			"type": "divider"
-		},{
-			"type": "html",
-			"content": "Anchorage Daily News"
 		},{
 			"type": "divider"
 		},{
@@ -231,7 +233,17 @@
 			"type": "divider"
 		},{
 			"type": "html",
+			"content": "Aleiutian Pribilof Islands Asociation"
+		},{
+			"type": "divider"
+		},{
+			"type": "html",
 			"content": "Alyeska Pipeline Service Company"
+		},{
+			"type": "divider"
+		},{
+			"type": "html",
+			"content": "Anchorage Daily News"
 		},{
 			"type": "divider"
 		},{
@@ -241,7 +253,7 @@
 			"type": "divider"
 		},{
 			"type": "html",
-			"content": "Dark Hose Coffee Company"
+			"content": "Dark Horse Coffee Company"
 		},{
 			"type": "divider"
 		},{
@@ -273,6 +285,8 @@
 			"type": "html",
 			"content": "Ninilchik Traditional Council"
 		},{
+			"type": "divider"
+		},{
 			"type": "html",
 			"content": "Rage City Rollergirls"
 		},{
@@ -285,6 +299,9 @@
 		},{
 			"type": "html",
 			"content": "Skinny Raven"
+		},{
+			"type": "html",
+			"content": "Udelhoven Oilfield Services"
 		},{
 			"type": "divider"
 		},{

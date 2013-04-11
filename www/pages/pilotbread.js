@@ -35,11 +35,25 @@
 			"header": "Youth Submission",
 			"content": "<b>For contestants 18 and under</b> A one-year supply of Pilot Bread and a 2013 NYO t-shirt"
 		},{
+			"type": "html",
+			"content": "<h2>Submit your Pilot Bread Recipe Today!</h2>"
+		},{
+			"type": "divider"
+		},{
 			"type": "listitem",
-			"header": "<a href=\"#\">Submit your Entry Online</a>",
-			"content": "Yum! Check out 2012 winning entries and photos from last year's <a href='http://citci.org/event-programs/nyo-games/2013-nyo-activities/3rd-annual-pilot-bread-recipe-contest/2012-pilot-bread-contest-winning-recipes/'>Pilot Bread Contest</a>",
-			"href": "http://citci.org/event-programs/nyo-games/3rd-annual-pilot-bread-recipe-contest/",
-			"online": "yes"
+			"content": "<a href=\"#\">Submit your Entry Online</a>",
+			"href": "http://citci.org/event-programs/nyo-games/3rd-annual-pilot-bread-recipe-contest/"
+		},{
+			"type": "listitem",
+			"content": "Stop by the Pilot Bread Booth during the Games and submit your favorite recipe"
+		},{
+			"type": "html",
+			"content": "Submit your Pilot Bread photos to \"Sailor Boy Pilot Bread\" Facebook Page and win a $25 Visa Gift Card!<br />"
+		},{
+			"type": "divider"
+		},{
+			"type": "html",
+			"content": "Got a photo of your favorite way to enjoy Pilot Bread? If so, be sure to upload your photo to the \"Sailor Boy Pilot Bread\" Facebook page today! Pictures during the event that include athletes and contestants with their Pilot Bread box and pictures of recipe contest participants creating their unique recipe are encouraged to \"like\" the page and upload their best picture. The photo that receives the most \"likes\" will win a $25 Visa Gift Card. See you at the Games!"
 		}]
 	}]
 }

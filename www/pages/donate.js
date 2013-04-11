@@ -16,7 +16,7 @@
 			"source": "img/header/nyo.png"
 		},{
 			"type": "html",
-			"content": "<h1>Donate</h1><span class='small'>NYO is funded through community support—please join us in making NYO possible for our youth through a financial contribution. Contributions of all sizes are welcome and make a difference.<br /><br />Double your impact! All donations to NYO will be matched by the CIRI Foundation up to $5,000! <br /><br />Support our youth today:</span>"
+			"content": "<h1>Donate</h1><span class='small'>NYO is funded through community support—please join us in making NYO possible for our youth through a financial contribution. Contributions of all sizes are welcome and make a difference.<br /><br />Support our youth today:</span>"
 		},{
 			"type": "divider"
 		},{
@@ -31,7 +31,7 @@
 		},{
 			"type": "html",
 			"class": "small",
-			"content": "Thank you for your support of our youth—tomorrow’s leaders!<br /><br />Together, we do make a difference."
+			"content": "Thank you for your support of our youth—tomorrow’s leaders!"
 		}]
 	}]
 }

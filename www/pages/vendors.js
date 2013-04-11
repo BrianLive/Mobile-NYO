@@ -16,7 +16,7 @@
 			"source": "img/header/nyo.png"
 		},{
 			"type": "html",
-			"content": "<h1>Vendors</h1><span class='small'></span>"
+			"content": "<h1>Vendors</h1><span class='small'>Be sure to visit the 4th Annual NYO Opportunities Expo during the Games. A variety of vendor booths will be on-hand, including event sponsors, health and fitness, arts and crafts, educational opportunities, employment recruitment and more.</span>"
 		},{
 			"type": "divider"
 		},{

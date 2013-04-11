@@ -26,6 +26,11 @@
 			"page": "pilotbread"
 		},{
 			"type": "listitem",
+			"header": "2013 NYO Prizes",
+			"content": "Participate in NYO activities and get a chance to win cool NYO prizes!",
+			"page": "prizes"
+		},{
+			"type": "listitem",
 			"header": "NYO Trivia Quiz",
 			"content": "Test your NYO knowledge!",
 			"href": "http://citci.org/2013-nyo-games-alaska-trivia/",

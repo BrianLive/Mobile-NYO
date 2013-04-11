@@ -30,11 +30,6 @@
 			"download": "true",
 			"href": "http://www.citci.org/wp-content/uploads/2013/04/2013-NYO-Handbook.pdf"
 		},{
-			"type": "listem",
-			"header": "NYO Schedule",
-			"download": "true",
-			"href": "http://www.citci.com/app/2012 NYO Schedule.pdf"
-		},{
 			"type": "listitem",
 			"header": "About the Games",
 			"download": "true",
@@ -42,16 +37,12 @@
 		},{
 			"type": "listitem",
 			"header": "NYO 2012 Results",
-			"online": "yes",
 			"href": "http://citci.org/event-programs/nyo-games/2012-nyo-games-official-results/"
 		},{
 			"type": "listitem",
-			"header": "Naquht'ana Spring Impact Report (Unavailable)",
-			"href": ""
-		},{
-			"type": "listitem",
-			"header": "Youth Info (Unavailable)",
-			"href": ""
+			"header": "Naquht'ana Spring Impact Report",
+			"download": "true",
+			"href": "http://citci.org/wp-content/uploads/2013/04/NYO13_Student-Survey.pdf"
 		}]
 	}]
 }
