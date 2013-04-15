@@ -1,4 +1,4 @@
-{
+﻿{
 	"title": "Resources",
 	"content": [{
 		"class": ["ui", "back"],
@@ -23,7 +23,7 @@
 			"type": "listitem",
 			"header": "NYO Games Guide / Access 360",
 			"download": "true",
-			"href": "http://www.citci.org/app/A360 Spring 2012.pdf"
+			"href": "http://citci.org/wp-content/uploads/2013/04/A360_0413-About-the-Games.doc"
 		},{
 			"type": "listitem",
 			"header": "NYO Handbook",
