@@ -1,4 +1,4 @@
-{
+﻿{
 	"title": "Pilot Bread Contest",
 	"content": [{
 		"class": ["ui", "back"],
@@ -48,7 +48,7 @@
 			"content": "Stop by the Pilot Bread Booth during the Games and submit your favorite recipe"
 		},{
 			"type": "html",
-			"content": "Submit your Pilot Bread photos to \"Sailor Boy Pilot Bread\" Facebook Page and win a $25 Visa Gift Card!<br />"
+			"content": "Submit your Pilot Bread photos to \"Sailor Boy Pilot Bread\" Facebook Page and win a <bold>$25 Visa Gift Card!</bold><br />"
 		},{
 			"type": "divider"
 		},{

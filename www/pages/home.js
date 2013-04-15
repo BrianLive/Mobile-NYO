@@ -37,7 +37,7 @@
 		},{
 			"type": "button",
 			"page": "gear",
-			"content": "Gear"
+			"content": "Apparel"
 		},{
 			"type": "button",
 			"page": "resources",

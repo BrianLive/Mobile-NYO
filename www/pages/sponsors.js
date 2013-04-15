@@ -53,20 +53,20 @@
 			"source": "img/sponsors/Silver/ASRC.png"
 		},{
 			"type": "sponsor",
-			"href": "http://www.thecirifoundation.org/",
-			"source": "img/sponsors/Silver/CIRI_Found.png"
-		},{
-			"type": "sponsor",
 			"href": "http://www.chugach-ak.com",
 			"source": "img/sponsors/Silver/chugach-ak.png"
 		},{
 			"type": "sponsor",
-			"href": "http://www.clearchannel.com/",
-			"source": "img/sponsors/Silver/ClearChannel.png"
+			"href": "http://www.thecirifoundation.org/",
+			"source": "img/sponsors/Silver/CIRI_Found.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.ciri.com/",
 			"source": "img/sponsors/Bronze/CIRI_logo.png"
+		},{
+			"type": "sponsor",
+			"href": "http://www.clearchannel.com/",
+			"source": "img/sponsors/Silver/ClearChannel.png"
 		},{
 			"type": "sponsor",
 			"href": "http://www.fredmeyer.com/",
@@ -233,7 +233,7 @@
 			"type": "divider"
 		},{
 			"type": "html",
-			"content": "Aleiutian Pribilof Islands Asociation"
+			"content": "Aleutian Pribilof Islands Asociation"
 		},{
 			"type": "divider"
 		},{
@@ -299,6 +299,8 @@
 		},{
 			"type": "html",
 			"content": "Skinny Raven"
+		},{
+			"type": "divider"
 		},{
 			"type": "html",
 			"content": "Udelhoven Oilfield Services"

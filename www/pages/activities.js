@@ -1,4 +1,4 @@
-{
+﻿{
 	"title": "Activites",
 	"content": [{
 		"class": ["ui", "back"],
@@ -26,11 +26,6 @@
 			"page": "pilotbread"
 		},{
 			"type": "listitem",
-			"header": "2013 NYO Prizes",
-			"content": "Participate in NYO activities and get a chance to win cool NYO prizes!",
-			"page": "prizes"
-		},{
-			"type": "listitem",
 			"header": "NYO Trivia Quiz",
 			"content": "Test your NYO knowledge!",
 			"href": "http://citci.org/2013-nyo-games-alaska-trivia/",
@@ -43,6 +38,11 @@
 			"content": "Have your art featured on the official 2014 NYO Gear!",
 			"href": "http://citci.org/wp-content/uploads/2013/04/2014-NYO-Art-Contest.pdf",
 			"online": "yes"
+		},{
+			"type": "listitem",
+			"header": "2013 NYO Prizes",
+			"content": "Participate in NYO activities and get a chance to win cool NYO prizes!",
+			"page": "prizes"
 		}]
 	}]
 }
